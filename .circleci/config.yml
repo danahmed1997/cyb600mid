@@ -16,8 +16,7 @@ jobs:
               cd DumpsterDiver
               pip3 install -r requirements.txt
               python3 DumpsterDiver.py -p /home/circleci/spring-rest-helloworld --min-key 40 --max-key 40 --entropy 4.3
-              echo "installing pip and running DumpsterDiver"
-              ...
+              echo "installing pip and running DumpsterDiver
           name: "dumpster diver"
 
       - setup_remote_docker
