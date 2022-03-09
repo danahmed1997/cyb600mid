@@ -6,8 +6,7 @@ jobs:
       - 
         image: "circleci/openjdk:8-jdk-browsers"
     steps: 
-      - checkout
-      -
+      -checkout
       version2.1
       orbs:
         snyk: snyk/snyk@1.1.2
