@@ -10,7 +10,7 @@ jobs:
       -
         run: 
           command: | 
-              apt install python3-pip
+              sudo apt-get install python3-pip python-dev
               pip install -r requirements.txt
               git clone https://github.com/securing/DumpsterDiver
               cd DumpsterDiver
