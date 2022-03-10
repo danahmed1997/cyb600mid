@@ -49,5 +49,5 @@ jobs:
               echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
               sudo apt-get update
               sudo apt-get install trivy 
-              trivy image cyb600mid
+              trivy image danahmed97/cyb600mid:5.2.19.RELEASE-82e3659-34
     working_directory: ~/spring-rest-helloworld
