@@ -1,5 +1,7 @@
 --- 
 version: 2.1
+orbs:
+  snyk: snyk/snyk@1.1.2
 jobs: 
   build: 
     docker: 
@@ -7,9 +9,6 @@ jobs:
         image: "circleci/openjdk:8-jdk-browsers"
     steps: 
       -checkout
-    version: '2.1'
-    orbs:
-      snyk: snyk/snyk@1.1.2
     jobs:
       build:
         docker:
