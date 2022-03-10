@@ -7,7 +7,7 @@
 	<groupId>org.springframework</groupId>
 	<artifactId>spring-rest-helloworld</artifactId>
 	<packaging>war</packaging>
-	<version>5.2.0</version>
+	<version>5.2.19.RELEASE</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -51,7 +51,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>2.1.1.RELEASE</version>
+				<version>5.2.19.RELEASE</version>
 			</plugin>
 		</plugins>
 		<finalName>${project.artifactId}</finalName>
